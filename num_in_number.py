@@ -5,10 +5,8 @@ def num_in_number():
     """
 
     count = 0
-    print('Введите натуральное число num: ')
-    num = int(input())
-    print('Введите натуральное число number: ')
-    number = int(input())
+    num = int(input('Введите натуральное число num: '))
+    number = int(input('Введите натуральное число number: '))
     for i in range(number + 1):
         i = str(i)
         for j in i:
