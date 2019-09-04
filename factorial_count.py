@@ -1,5 +1,4 @@
-print('Введите число n: ')
-n = int(input())
+n = int(input('Введите число n: '))
 def factorial(n):
     """
     Вычисление факториала числа n.
